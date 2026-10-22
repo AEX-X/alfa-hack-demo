@@ -1,0 +1,1 @@
+function e(e){return{"--i":e}}export{e as t};
