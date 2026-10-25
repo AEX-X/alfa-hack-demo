@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<title>Кредитный кабинет</title>
+<script>
+  var base = '/' + location.pathname.split('/')[1] + '/'
+  location.replace(base + '#/' + location.pathname.slice(base.length) + location.search)
+</script>
+<p>Переходим в кабинет… Если ничего не происходит, откройте <a href="./">главную страницу стенда</a>.</p>
+</html>
